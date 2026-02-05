@@ -2,6 +2,16 @@
 
 A robust, full-stack task management application built to streamline personal productivity. This project demonstrates a complete implementation of a RESTful API backend connected to a modern, responsive React frontend.
 
+# Login Page
+<img width="1918" height="860" alt="image" src="https://github.com/user-attachments/assets/7b0dec62-2baa-4764-9970-d3c39ec88f5d" />
+
+# Register Page
+<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/fa45577d-9940-4f3d-a9cf-896b089c5514" />
+
+# Dashboard  
+<img width="1910" height="883" alt="image" src="https://github.com/user-attachments/assets/60f50115-d883-463d-a6b2-df359298b45e" />
+
+
 ## Features Implemented
 
 ### Core Functionality
