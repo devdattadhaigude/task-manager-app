@@ -1,7 +1,7 @@
-package com.finlec.taskmanager.Dto; // Ensure this matches your folder name (Dto vs dto)
+package com.finlec.taskmanager.Dto; 
 
 import jakarta.validation.constraints.NotBlank;
-import lombok.Data; // You can keep this, but we will add manual methods to be safe
+import lombok.Data; 
 
 public class LoginRequest {
     @NotBlank
