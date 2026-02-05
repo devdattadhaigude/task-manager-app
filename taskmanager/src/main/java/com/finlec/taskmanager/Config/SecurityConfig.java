@@ -24,10 +24,6 @@ public class SecurityConfig {
     @Autowired
     JwtAuthenticationFilter jwtAuthenticationFilter;
 
-    // --- REMOVED: authenticationProvider() Bean ---
-    // Spring Boot automatically detects your UserDetailsServiceImpl and PasswordEncoder
-    // and wires them together. We don't need to write that code manually.
-
     @Bean
     public AuthenticationManager authenticationManager(AuthenticationConfiguration authConfig) throws Exception {
         return authConfig.getAuthenticationManager();
@@ -55,7 +51,7 @@ public class SecurityConfig {
                         .anyRequest().authenticated()
                 );
 
-        // We still add the JWT filter, but we don't need to manually set the provider
+        
         http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
