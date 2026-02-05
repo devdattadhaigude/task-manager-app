@@ -1,0 +1,42 @@
+/* App.css */
+body {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); /* Modern Purple-Blue Gradient */
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  border: none;
+  border-radius: 15px; /* Softer corners */
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2); /* floating effect */
+  background: rgba(255, 255, 255, 0.95); /* Slight transparency */
+  overflow: hidden;
+}
+
+.auth-header {
+  background: transparent;
+  color: #333;
+  text-align: center;
+  padding-bottom: 0;
+  border: none;
+}
+
+.btn-custom {
+  background: #667eea;
+  border: none;
+  font-weight: 600;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.btn-custom:hover {
+  background: #764ba2;
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.form-floating > label {
+  color: #6c757d;
+}
