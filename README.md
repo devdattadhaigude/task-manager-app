@@ -9,7 +9,7 @@ A robust, full-stack task management application built to streamline personal pr
 <img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/fa45577d-9940-4f3d-a9cf-896b089c5514" />
 
 # Dashboard  
-<img width="1910" height="883" alt="image" src="https://github.com/user-attachments/assets/60f50115-d883-463d-a6b2-df359298b45e" />
+<img width="1897" height="880" alt="image" src="https://github.com/user-attachments/assets/529412b8-73cc-4d00-a512-8f5ad797c457" />
 
 
 ## Features Implemented
