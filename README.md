@@ -26,6 +26,16 @@ A robust, full-stack task management application built to streamline personal pr
 * **Database:** MySQL with Spring Data JPA (Hibernate)
 * **API:** RESTful Controller Architecture
 
+## Dependencies
+
+### Backend (Maven - pom.xml)
+* **spring-boot-starter-web:** Builds the RESTful web services.
+* **spring-boot-starter-data-jpa:** Handles database interactions using Hibernate and JPA.
+* **spring-boot-starter-security:** Manages authentication and access control.
+* **mysql-connector-j:** The JDBC driver for connecting to the MySQL database.
+* **jjwt-api / jjwt-impl / jjwt-jackson:** Libraries for creating and validating JSON Web Tokens (JWT).
+* **lombok:** (Optional) Reduces boilerplate code for getters, setters, and constructors.
+
 ### Frontend (React.js)
 * **Library:** React 18 (Hooks: useState, useEffect, useCallback)
 * **Routing:** React Router DOM v6
