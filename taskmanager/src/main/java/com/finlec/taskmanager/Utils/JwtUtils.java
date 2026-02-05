@@ -14,8 +14,7 @@ import java.util.Date;
 @Component
 public class JwtUtils {
 
-    // Ideally, store this in application.properties, but for this assignment, hardcoding is acceptable if noted.
-    // Must be at least 256 bits (32 chars) for HS256 algorithm.
+    // Ithis in application.properties, but for this assignment
     private static final String JWT_SECRET = "superSecretKeyForTaskManagerAppAssignment123!";
     private static final int JWT_EXPIRATION_MS = 86400000; // 24 hours
 

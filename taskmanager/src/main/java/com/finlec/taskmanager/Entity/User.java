@@ -1,4 +1,4 @@
-package com.finlec.taskmanager.Entity; // Note: Ensure package name matches your folder structure (Entity vs entity)
+package com.finlec.taskmanager.Entity; 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;

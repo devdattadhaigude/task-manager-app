@@ -2,7 +2,7 @@ package com.finlec.taskmanager.Controller;
 
 import com.finlec.taskmanager.Entity.User;
 import com.finlec.taskmanager.Repository.UserRepository;
-import com.finlec.taskmanager.Utils.JwtUtils; // Make sure this matches your utils package (might be 'Utils'?)
+import com.finlec.taskmanager.Utils.JwtUtils;
 import com.finlec.taskmanager.Dto.AuthResponse;
 import com.finlec.taskmanager.Dto.LoginRequest;
 import com.finlec.taskmanager.Dto.RegisterRequest;

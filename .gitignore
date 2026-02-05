@@ -1,0 +1,12 @@
+# Backend junk
+taskmanager/target/
+taskmanager/.mvn/
+taskmanager/mvnw
+taskmanager/mvnw.cmd
+.idea/
+*.class
+
+# Frontend junk
+taskmanager-frontend/node_modules/
+taskmanager-frontend/build/
+.DS_Store
